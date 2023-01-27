@@ -26,6 +26,7 @@ main {
     flex-wrap: wrap;
     height: 640px;
     margin: auto;
+    perspective: 1000px;
     width: 640px;
 }
 
@@ -37,6 +38,8 @@ main {
     margin: 5px;
     position: relative;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
     width: calc(25% - 10px);
 }
 
@@ -46,15 +49,20 @@ main {
 }
 
 .carta.flip {
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
-.frente , .verso {
+.frente , 
+.verso {
     background: rgb(12, 11, 11);
     border-radius: 5px;
     height: 100%;
     padding: 5px;
     position: absolute;
     width: 100%;
+    backface-visibility: hidden;
 }
 
+.frente {
+    transform: rotateY(180deg);
+}

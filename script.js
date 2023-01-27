@@ -1,8 +1,8 @@
 const cartas = document.querySelectorAll('.carta');
 
-function viraCarta() {
+function flipCard() {
     this.classList.toggle('flip');
 }
 
-cartas.forEach(carta => carta.addEventListener ('click', viraCarta));
+cartas.forEach(carta => carta.addEventListener ('click', flipCard));
 
