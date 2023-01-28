@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(purple, black);
+    background-image: linear-gradient(purple, rgb(15, 14, 14));
 }
 
 #titulo {
