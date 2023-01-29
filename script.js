@@ -28,7 +28,6 @@ function formouPar() {
 
 }
 
-
 function desabilitaCartas() {
     primeiraCarta.removeEventListener('click', viraCarta);
     segundaCarta.removeEventListener('click', viraCarta);
@@ -56,6 +55,11 @@ function resetaTabuleiro() {
         carta.style.order = aleatorio;
     });
 })();
+
+function recarregar () {
+    window.location.reload();
+}
+
 
 cartas.forEach(carta => carta.addEventListener ('click', viraCarta));
 
