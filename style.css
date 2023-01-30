@@ -5,51 +5,62 @@
 }
 
 body {
-    background-image: linear-gradient(purple, rgb(15, 14, 14));
+    background: linear-gradient(rgb(221, 19, 221), rgb(31, 28, 28));
 }
 
 #titulo {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 1.3;
-    margin-bottom: 20px;
+    margin-top: 15px;
     text-align: center;
     text-shadow: .5px .5px gray;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
 .botao-reiniciar {
-    background-color: black;
-    border-color: none;
+    background-color: rgb(251, 19, 154);
+    border-color: rgb(251, 19, 154);
     border-radius: 40px;
     color: white;
     display: flex;
     font-family: 'Rubik';
     font-size: 15px;
-    margin: auto;
-    padding: 1rem;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 17PX;
     text-transform: uppercase;
     transition: all .1s ease-in-out;
 }
   
 .botao-reiniciar:hover {
+    color: black;
     cursor: pointer;
     font-weight: bold;
 }
 
+.instrucoes {
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
 
-
-main {
-    display: flex;
-    height: 90vh;
+.imagem-instrucoes {
+    height: 600px;
 }
 
 .jogo__da__memoria {
     display: flex;
     flex-wrap: wrap;
-    height: 640px;
+    height: 650px;
     margin: auto;
     perspective: 1000px;
-    width: 640px;
+    width: 750px;
 }
 
 .carta {
@@ -76,13 +87,13 @@ main {
 
 .frente , 
 .verso {
+    backface-visibility: hidden;
     background: rgb(12, 11, 11);
     border-radius: 5px;
     height: 100%;
     padding: 5px;
     position: absolute;
     width: 100%;
-    backface-visibility: hidden;
 }
 
 .frente {

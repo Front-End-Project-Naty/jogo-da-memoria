@@ -12,13 +12,15 @@
 </head>
 <body>
     <header>
-        <div>
+
             <h1 id="titulo">Jogo da Memória by Gatiele </h1>
-            <button onClick="recarregar()" class="botao-reiniciar" data-botao-restart>Reiniciar</button>
-        </div>
     </header>
     
     <main>
+        <section class="instrucoes">
+            <img class="imagem-instrucoes" src ="img/instrucoes2.png">
+            <button onClick="recarregar()" class="botao-reiniciar" data-botao-restart>Reiniciar</button>
+        </section>
         <section class="jogo__da__memoria">
             <div class="carta" data-roupa="encharpe">
                 <img class="frente" src="./img/encharpe.jpg" alt="frente da carta">
@@ -70,7 +72,7 @@
             </div>
         </section>
     </main>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
