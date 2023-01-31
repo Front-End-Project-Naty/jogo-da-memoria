@@ -9,12 +9,14 @@
 
 
 
-## Descrição do projeto 
+<h2 align="center">Descrição do projeto </h2>
 
-<p align="justify">
+<p align="center">
   Projeto de um jogo da memória com as fotos da Gatiele. 
   Foi desenvolvido com as ferramentas HTML, CSS e JavaScript, para praticar principalmente JavaScript com as dinâmicas de virar e desvirar as cartas, com funções diferentes ao formar ou não um par, além de adicionar o botão para reinicar o jogo.
   
+  ![image](https://user-images.githubusercontent.com/61480327/215824826-5e446997-635a-48a1-8d8b-49b9f69dca08.png)
+
   #imagem do verso das cartas: Freepik.com
 </p>
 
@@ -28,7 +30,7 @@
 
 ## Acesso ao projeto
 
-Você pode acessar em: 
+Você pode acessar e se divertir em: 
 
 ## Desenvolvedora
 
