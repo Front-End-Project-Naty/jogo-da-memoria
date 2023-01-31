@@ -4,7 +4,7 @@
 <img width=60% src="https://user-images.githubusercontent.com/61480327/214454876-29319cf8-ef9b-4ebc-83fa-277555c89ee1.png">
 </p>
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM+ANDAMENTO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 
@@ -30,7 +30,7 @@
 
 ## Acesso ao projeto
 
-Você pode acessar e se divertir em: 
+Você pode acessar e se divertir em: https://natyaith.github.io/jogo-da-memoria/
 
 ## Desenvolvedora
 
