@@ -9,8 +9,8 @@ body {
 }
 
 #titulo {
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 45px;
+    font-family: 'Itim', cursive;
+    font-size: 50px;
     line-height: 1.3;
     margin-top: 15px;
     text-align: center;
@@ -27,10 +27,10 @@ main {
     background-color: rgb(251, 19, 154);
     border-color: rgb(251, 19, 154);
     border-radius: 40px;
-    color: white;
+    color: black;
     display: flex;
-    font-family: 'Rubik';
-    font-size: 15px;
+    font-family: 'Itim', cursive;
+    font-size: 17px;
     font-weight: bold;
     margin: 10px auto;
     padding: 17PX;
@@ -39,7 +39,7 @@ main {
 }
   
 .botao-reiniciar:hover {
-    color: black;
+    color: white;
     cursor: pointer;
     font-weight: bold;
 }
@@ -98,4 +98,58 @@ main {
 
 .frente {
     transform: rotateY(180deg);
+}
+
+.rodape {
+    color: rgb(251, 19, 154);
+    font-family: 'Itim', cursive;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px){
+    #titulo {
+        word-wrap: break-word;
+    }
+
+    main{
+        height: 100%;
+    }
+
+    .instrucoes {
+        height: auto;
+        margin: auto;
+    }
+    
+    img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+     #titulo {
+        word-wrap: break-word;
+    }
+
+     main {
+        height: 100%;
+    }
+   
+    .instrucoes {
+        height: auto;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .jogo__da__memoria {
+        height: 450px;
+        margin-bottom: 10px;
+    }
+
 }
